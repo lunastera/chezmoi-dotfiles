@@ -1,6 +1,6 @@
 [user]
-  name = lunastera
-  email = {{ .email | quote }}
+  name = {{ .github.user | quote }}
+  email = {{ .github.email | quote }}
 [core]
   excludesfile = ~/.gitignore_global
   autocrlf = input
