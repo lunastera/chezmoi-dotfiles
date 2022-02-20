@@ -1,0 +1,9 @@
+[user]
+  name = lunastera
+  email = lounastera@gmail.com
+[core]
+  excludesfile = ~/.gitignore_global
+  autocrlf = input
+[ghq]
+  root = ~/.local/share/go
+  root = ~/.local/share/ghq
