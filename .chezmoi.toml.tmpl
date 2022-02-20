@@ -1,0 +1,6 @@
+{{ $email := promptString "email" -}}
+[edit]
+  command = "code"
+  args = ["--wait"]
+[data]
+  email = {{ $email | quote }}
